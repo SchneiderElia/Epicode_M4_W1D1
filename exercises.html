@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <title>Exercises</title>
+</head>
+
+<body class="p-5">
+
+    <!--     exercise 1  -->
+    <div>
+        <h4>Crea una funzione che controlli due numeri interi. Ritorna 'true'
+            se uno dei due è 50 o se la somma dei due è 50.</h4>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-3 d-flex flex-column">
+                <label>Numero uno</label>
+                <input id="numOne" type="text" placeholder="scrivi un numero">
+            </div>
+            <div class="col-3 d-flex flex-column">
+                <label>Numero due</label>
+                <input id="numTwo" type="text" placeholder="scrivi un numero">
+            </div>
+            <div class="col-1 d-flex flex-column justify-content-end">
+                <button id="control" type="submit">Control</button>
+            </div>
+            <div class="col-5">
+                <p id="result"></p>
+            </div>
+        </div>
+    </div>
+
+    <br><hr><hr><br><br>  <!--     exercise 2  -->
+      <div>
+        <h4>
+            Crea una funzione che rimuova il carattere ad una specifica posizione da una stringa.
+            Passa la stringa e la posizione come parametri e ritorna la stringa modificata.
+        </h4>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-3 d-flex flex-column">
+                <label>Parola</label>
+                <input id="world" type="text" placeholder="scrivi una parola">
+            </div>
+            <div class="col-1 d-flex flex-column justify-content-end">
+                <button id="controls" type="submit">Control</button>
+            </div>
+            <div class="col-5">
+                <p id="newWorld"></p>
+            </div>
+        </div>
+    </div>
+
+
+    <br><hr><hr><br><br>  <!--     exercise 3  -->
+    <div>
+      <h4>
+        Crea una funzione che controlli se due numeri siano compresi tra 
+        40 e 60 o tra 70 e 100. Ritorna 'true' se rispecchiano queste
+        condizioni, altrimenti ritorna 'false'.
+    </h4>
+      <br>
+      <br>
+      <div class="row">
+          <div class="col-3 d-flex flex-column">
+              <label>Inserici un numero</label>
+              <input id="numberOne" type="number" placeholder="scrivi un numero">
+          </div>
+          <div class="col-3 d-flex flex-column">
+            <label>Inserici un numero</label>
+            <input id="numberTwo" type="number" placeholder="scrivi un numero">
+        </div>
+          <div class="col-1 d-flex flex-column justify-content-end">
+              <button id="verify" type="submit">Control</button>
+          </div>
+          <div class="col-5">
+              <p id="reply"></p>
+          </div>
+      </div>
+  </div>
+
+  <br><hr><hr><br><br>  <!--     exercise 3  -->
+  <div>
+    <h4>
+        Crea una funzione che accetti un nome di città
+    come parametro e ritorni il nome stesso se inizia con
+    "Los" o "New", altrimenti ritorni 'false'.
+
+  </h4>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col-3 d-flex flex-column">
+            <label>Inserici il nome di una città</label>
+            <input id="cityName" type="text" placeholder="Inserici il nome di una città">
+        </div>
+        
+        <div class="col-1 d-flex flex-column justify-content-end">
+            <button id="controllo" type="submit">Control</button>
+        </div>
+        <div class="col-5">
+            <p id="replys"></p>
+        </div>
+    </div>
+</div>
+
+ 
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+</html>
